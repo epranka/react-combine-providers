@@ -4,7 +4,7 @@ declare class CombineProviders {
     constructor();
     push<P extends any>(Component: React.ComponentType<P>, props?: P): void;
     private createProvidersTree;
-    toElement(): ({ children }: {
+    master(): ({ children }: {
         children: any;
     }) => any;
 }

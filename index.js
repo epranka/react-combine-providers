@@ -43,7 +43,7 @@ var CombineProviders = /** @class */ (function () {
             return React.createElement(component, props, this.createProvidersTree(stack, ++index, children));
         }
     };
-    CombineProviders.prototype.toElement = function () {
+    CombineProviders.prototype.master = function () {
         var _this = this;
         var fullStack = this.stack.slice();
         return function (_a) {
