@@ -1,4 +1,5 @@
-# react-combine-providers
+react-combine-providers
+========================
 
 In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet and many other, needs providers in the root of the application. So usually entry file looks like as flying ducks in the sky
 
