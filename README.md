@@ -1,12 +1,14 @@
 # react-combine-providers
 
-In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet and many others needs Providers in the root of the application. So usually entry file looks like as flying ducks in the sky
+In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet and many other, needs providers in the root of the application. So usually entry file looks like as flying ducks in the sky
 
-<iframe
-  src="https://carbon.now.sh/embed/?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=base16-light&wt=none&l=jsx&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&code=%2520%2520%2520%2520%253CProvider1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253CProvider2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253CProvider3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520...%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253CApp%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520...%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252FProvider3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252FProvider2%253E%250A%2520%2520%2520%2520%253C%252FProvider1%253E&es=2x&wm=false"
-  style="width: 100%; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=example-of-flying-ducks]]
+
+This module lets avoid it, and makes flying ducks more readable
+
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=convert-flying-ducks-to-this]]
+
+### Install
 
 ```
 npm install --save react-combine-providers
@@ -21,14 +23,16 @@ yarn install react-combine-providers
 ### Import module
 
 ```js
-import {combineProviders} from 'react-combine-providers';
+import { combineProviders } from "react-combine-providers";
 ```
 
 ### Usage
 
-
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=usage-example]]
 
 ### Real example
+
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=real-example]]
 
 ### Author
 

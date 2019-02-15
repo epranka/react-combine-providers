@@ -39,7 +39,7 @@ class CombineProviders {
         }
     }
 
-    public toElement() {
+    public master() {
         const fullStack = [...this.stack];
         return ({ children }) => {
             return this.createProvidersTree(fullStack, 0, children);
