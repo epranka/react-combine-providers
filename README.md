@@ -29,11 +29,11 @@ import { combineProviders } from "react-combine-providers";
 
 ### Usage
 
-![usage-example](https://github.com/username/repository/blob/master/img/octocat.png|alt=usage-example)
+![usage-example](https://github.com/epranka/react-combine-providers/blob/master/resources/usage-example.png)
 
 ### Real example
 
-![real-example](https://github.com/username/repository/blob/master/img/octocat.png|alt=real-example)
+![real-example](https://github.com/epranka/react-combine-providers/blob/master/resources/real-example.png)
 
 ### Author
 
