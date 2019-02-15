@@ -2,7 +2,7 @@
 
 In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet and many other, needs providers in the root of the application. So usually entry file looks like as flying ducks in the sky
 
-[[https://github.com/epranka/react-combine-providers/blob/master/resources/example-of-flying-ducks.png|alt=example-of-flying-ducks]]
+![example-of-flying-ducks](https://github.com/epranka/react-combine-providers/blob/master/resources/example-of-flying-ducks.png)
 
 This module lets avoid it, and makes flying ducks more readable
 
