@@ -6,7 +6,7 @@ In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet an
 
 This module lets avoid it, and makes flying ducks more readable
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=convert-flying-ducks-to-this]]
+![convert-flying-ducks-to-this](https://github.com/epranka/react-combine-providers/blob/master/resources/convert-flying-ducks-to-this.png)
 
 ### Install
 
@@ -28,11 +28,11 @@ import { combineProviders } from "react-combine-providers";
 
 ### Usage
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=usage-example]]
+![usage-example](https://github.com/username/repository/blob/master/img/octocat.png|alt=usage-example)
 
 ### Real example
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=real-example]]
+![real-example](https://github.com/username/repository/blob/master/img/octocat.png|alt=real-example)
 
 ### Author
 
