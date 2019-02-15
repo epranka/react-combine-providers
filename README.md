@@ -3,11 +3,11 @@ react-combine-providers
 
 In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet and many other, needs providers in the root of the application. So usually entry file looks like as flying ducks in the sky
 
-![example-of-flying-ducks](https://github.com/epranka/react-combine-providers/blob/master/resources/example-of-flying-ducks.png)
+![example-of-flying-ducks](https://raw.githubusercontent.com/epranka/react-combine-providers/master/resources/example-of-flying-ducks.png)
 
 This module lets avoid it, and makes flying ducks more readable
 
-![convert-flying-ducks-to-this](https://github.com/epranka/react-combine-providers/blob/master/resources/convert-flying-ducks-to-this.png)
+![convert-flying-ducks-to-this](https://raw.githubusercontent.com/epranka/react-combine-providers/master/resources/convert-flying-ducks-to-this.png)
 
 ### Install
 
@@ -29,11 +29,11 @@ import { combineProviders } from "react-combine-providers";
 
 ### Usage
 
-![usage-example](https://github.com/epranka/react-combine-providers/blob/master/resources/usage-example.png)
+![usage-example](https://raw.githubusercontent.com/epranka/react-combine-providers/master/resources/usage-example.png)
 
 ### Real example
 
-![real-example](https://github.com/epranka/react-combine-providers/blob/master/resources/real-example.png)
+![real-example](https://raw.githubusercontent.com/epranka/react-combine-providers/master/resources/real-example.png)
 
 ### Author
 

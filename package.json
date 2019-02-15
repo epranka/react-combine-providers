@@ -1,6 +1,6 @@
 {
     "name": "react-combine-providers",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Avoid flying ducks in react providers tree",
     "main": "index.js",
     "types": "index.d.ts",
