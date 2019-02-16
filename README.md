@@ -7,8 +7,9 @@ react-combine-providers
 <a href="https://twitter.com/intent/follow?screen_name=epranka">
 <img src="https://img.shields.io/twitter/follow/epranka.svg?style=social&logo=twitter"
 alt="follow on Twitter"></a>
-
-![](https://img.shields.io/npm/dt/react-combine-providers.svg?style=flat)
+<a href="https://www.npmjs.com/package/react-combine-providers">
+<img src="https://img.shields.io/npm/dt/react-combine-providers.svg?style=flat" />
+</a>
 
 In React.js, libraries such as ReactRouter, StyledComponents SSR, ReactHelmet and many other has providers. If you has a more than four providers in the root of the application, your entry file usually looks like as flying ducks in the sky
 
