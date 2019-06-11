@@ -1,21 +1,9 @@
 {
     "compilerOptions": {
-        "allowSyntheticDefaultImports": true,
-        "experimentalDecorators": true,
-        "esModuleInterop": true,
-        "jsx": "react",
-        "lib": [
-            "dom",
-            "es2017"
-        ],
+        "target": "es5",
         "module": "commonjs",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "preserveConstEnums": true,
-        "removeComments": false,
         "skipLibCheck": true,
-        "sourceMap": true,
-        "target": "esnext",
-        "noEmit": true,
+        "strict": false,
+        "esModuleInterop": true
     }
 }

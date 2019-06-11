@@ -24,11 +24,22 @@ var CombineProviders = /** @class */ (function () {
         this.stack = [];
         this.stack = [];
     }
-    CombineProviders.prototype.push = function (Component, props) {
-        this.stack.push({
-            Component: Component,
-            props: props
+    CombineProviders.prototype.getNode = function (Component) {
+        // @ts-ignore
+        return this.stack.find(function (node) {
+            return node.Component === Component;
         });
+    };
+    CombineProviders.prototype.push = function (Component, props) {
+        // @ts-ignore
+        var node = this.getNode(Component);
+        if (node) {
+            node.props = props;
+        }
+        else {
+            // @ts-ignore
+            this.stack.push({ Component: Component, props: props });
+        }
     };
     CombineProviders.prototype.createProvidersTree = function (stack, index, children) {
         if (index === void 0) { index = 0; }
@@ -43,16 +54,19 @@ var CombineProviders = /** @class */ (function () {
             return React.createElement(component, props, this.createProvidersTree(stack, ++index, children));
         }
     };
+    CombineProviders.prototype.render = function (children) {
+        return this.createProvidersTree(this.stack, 0, children);
+    };
     CombineProviders.prototype.master = function () {
         var _this = this;
-        var fullStack = this.stack.slice();
         return function (_a) {
             var children = _a.children;
-            return _this.createProvidersTree(fullStack, 0, children);
+            return _this.createProvidersTree(_this.stack, 0, children);
         };
     };
     return CombineProviders;
 }());
+exports.CombineProviders = CombineProviders;
 exports.combineProviders = function () {
     return new CombineProviders();
 };

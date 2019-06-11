@@ -1,12 +1,13 @@
 import * as React from "react";
-declare class CombineProviders {
+export declare class CombineProviders {
     private stack;
     constructor();
+    private getNode;
     push<P extends any>(Component: React.ComponentType<P>, props?: P): void;
     private createProvidersTree;
+    render(children: any): any;
     master(): ({ children }: {
         children: any;
     }) => any;
 }
 export declare const combineProviders: () => CombineProviders;
-export {};

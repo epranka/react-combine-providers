@@ -10,6 +10,7 @@ export class CombineProviders {
 	}
 
 	private getNode(Component: React.ComponentType) {
+		// @ts-ignore
 		return this.stack.find(node => {
 			return node.Component === Component;
 		});
