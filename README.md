@@ -45,6 +45,13 @@ import { combineProviders } from "react-combine-providers";
 
 ![real-example](https://raw.githubusercontent.com/epranka/react-combine-providers/master/resources/real-example.png)
 
+### Real example with render
+
+If you have problems with state loose, use render method instead
+
+![real-example-with-render](https://raw.githubusercontent.com/epranka/react-combine-providers/master/resources/real-example-with-render.png)
+
+
 ### Author
 
 Edvinas pranka

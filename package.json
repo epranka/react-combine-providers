@@ -1,6 +1,6 @@
 {
     "name": "react-combine-providers",
-    "version": "0.9.4",
+    "version": "0.9.5",
     "description": "Avoid flying ducks in react providers tree",
     "main": "index.js",
     "types": "index.d.ts",
@@ -32,6 +32,6 @@
     },
     "devDependencies": {
         "@types/react": "^16.8.3",
-        "typescript": "^3.3.3"
+        "typescript": "3.2.0-dev.20181006"
     }
 }

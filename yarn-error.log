@@ -1,0 +1,72 @@
+Arguments: 
+  /home/epranka/.nvm/versions/node/v12.3.1/bin/node /usr/share/yarn/bin/yarn.js add 3.2.0-dev.20181006 -D
+
+PATH: 
+  /home/epranka/.nvm/versions/node/v12.3.1/bin:/home/epranka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/3.2.0-dev.20181006: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1137:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+      "name": "react-combine-providers",
+      "version": "0.9.4",
+      "description": "Avoid flying ducks in react providers tree",
+      "main": "index.js",
+      "types": "index.d.ts",
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "build": "tsc --declaration"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git+https://github.com/epranka/react-combine-providers.git"
+      },
+      "keywords": [
+          "react",
+          "reactjs",
+          "combine",
+          "providers",
+          "javascript",
+          "es6",
+          "typescript"
+      ],
+      "author": "Edvinas Pranka (@epranka, https://www.kodmina.lt)",
+      "license": "ISC",
+      "bugs": {
+          "url": "https://github.com/epranka/react-combine-providers/issues"
+      },
+      "homepage": "https://github.com/epranka/react-combine-providers#readme",
+      "peerDependencies": {
+          "react": ">=16"
+      },
+      "devDependencies": {
+          "@types/react": "^16.8.3",
+          "typescript": "^3.3.3"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
