@@ -3,7 +3,7 @@ export declare class CombineProviders {
     private stack;
     constructor();
     private getNode;
-    push<P extends any>(Component: React.ComponentType<P>, props?: P): void;
+    push<P extends any>(Component: React.ComponentType<P>, props?: Omit<P, "children">): void;
     private createProvidersTree;
     render(children: any): any;
     master(): ({ children }: {
